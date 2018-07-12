@@ -13,7 +13,7 @@ setup(name='shelvery', version='0.4.3', author='Base2Services R&D',
       ],
       keywords='aws backup lambda ebs rds ami',
       packages=['shelvery', 'shelvery_cli', 'shelvery_lambda'],
-      install_requires=['boto3', 'python-dateutil'],
+      install_requires=['boto3', 'python-dateutil', 'pyyaml'],
       python_requires='>=3.6',
       description='Backup manager for AWS EBS and AWS RDS services',
       entry_points={
